@@ -15,7 +15,7 @@ async def scan_port(ip, port):
         # Ignore exceptions (closed or inaccessible ports)
         pass
 
-async def scan_ports(ip, start_port, end_port, max_concurrent_tasks=1000):
+async def scan_ports(ip, start_port, end_port, max_concurrent_tasks=10000):
     """
     Scans a range of ports on the given IP address with a limit on concurrent tasks.
     
