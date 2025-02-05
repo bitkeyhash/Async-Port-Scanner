@@ -49,7 +49,7 @@ def main():
     # Get port range from user
     try:
         start_port = int(input("Enter the starting port (e.g., 1): ").strip())
-        end_port = int(input("Enter the ending port (e.g., 1024): ").strip())
+        end_port = int(input("Enter the ending port (e.g., 65535): ").strip())
         
         # Validate port range
         if start_port < 1 or end_port > 65535 or start_port > end_port:
