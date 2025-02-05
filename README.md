@@ -43,7 +43,7 @@ python aps.py
 You'll be prompted to enter:
 - The target IP address (e.g., `192.168.1.1`)
 - The starting port (e.g., `1`)
-- The ending port (e.g., `1024`)
+- The ending port (e.g., `65535`)
 
 The script will then scan all ports in the specified range and display which ones are open! 🛳️
 
