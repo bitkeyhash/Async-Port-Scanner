@@ -1,14 +1,14 @@
 
 # 🍜 Async Port Scanner 🍜
 
-Welcome to the **Async Port Scanner**, a blazing-fast, lightweight, and deliciously simple port scanner built with Python and `asyncio`! 🚀 This project is designed to help you scan ports asynchronously with up to **200 parallel tasks** at once. It's like ordering 200 pizzas 🍕 at the same time—efficient and satisfying! 😄
+Welcome to the **Async Port Scanner**, a blazing-fast, lightweight, and deliciously simple port scanner built with Python and `asyncio`! 🚀 This project is designed to help you scan ports asynchronously with up to **1000 parallel tasks** at once. It's like ordering 1000 pizzas 🍕 at the same time—efficient and satisfying! 😄
 
 
 ## 🥡 Features
 
 - **Asynchronous Scanning**: Uses Python's `asyncio` for super-fast port scanning. Think of it as cooking multiple dishes at once! 🍳
 - **Customizable Port Range**: Specify the starting and ending ports to scan exactly what you need. 🎯
-- **Efficient Task Management**: Limits to 200 parallel tasks at a time to avoid overloading your system. 🛠️
+- **Efficient Task Management**: Limits to 1000 parallel tasks at a time to avoid overloading your system. 🛠️
 - **User-Friendly Input**: Interactive prompts guide you through entering the target IP and port range. 🧑‍🍳
 - **No Dependencies**: Uses only Python's standard library—no extra ingredients required! 🥕
 
